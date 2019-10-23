@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [nopcommerce regression suite]" parallel="tests">
+  <test thread-count="5" name="Regression Test(failed)" parallel="tests">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="testscript.UserRegistrationTest">
+        <methods>
+          <include name="CloseBrowser"/>
+          <include name="OpenBrowser"/>
+          <include name="UserRegistrationSucessfully"/>
+          <include name="TakeScreenShotTest"/>
+        </methods>
+      </class> <!-- testscript.UserRegistrationTest -->
+      <class name="testscript.ProductReviewTest">
+        <methods>
+          <include name="UserRegistrationSucessfully"/>
+          <include name="CloseBrowser"/>
+          <include name="OpenBrowser"/>
+          <include name="SearchForProduct"/>
+          <include name="TakeScreenShotTest"/>
+        </methods>
+      </class> <!-- testscript.ProductReviewTest -->
+      <class name="testscript.ChangeCurrencyTest">
+        <methods>
+          <include name="ChangeCurrency"/>
+          <include name="CloseBrowser"/>
+          <include name="OpenBrowser"/>
+          <include name="TakeScreenShotTest"/>
+        </methods>
+      </class> <!-- testscript.ChangeCurrencyTest -->
+      <class name="testscript.ContactUsTest">
+        <methods>
+          <include name="CloseBrowser"/>
+          <include name="ContactUsTestPage"/>
+          <include name="OpenBrowser"/>
+          <include name="TakeScreenShotTest"/>
+        </methods>
+      </class> <!-- testscript.ContactUsTest -->
+      <class name="testscript.CompareProductTest">
+        <methods>
+          <include name="SearchForProduct"/>
+          <include name="CloseBrowser"/>
+          <include name="OpenBrowser"/>
+          <include name="TakeScreenShotTest"/>
+        </methods>
+      </class> <!-- testscript.CompareProductTest -->
+      <class name="testscript.MyAccontTest">
+        <methods>
+          <include name="ChangePasswordPage"/>
+          <include name="UserloginSucessfully"/>
+          <include name="CloseBrowser"/>
+          <include name="LogoutPage"/>
+          <include name="OpenBrowser"/>
+          <include name="UserRegistrationSucessfully"/>
+          <include name="TakeScreenShotTest"/>
+        </methods>
+      </class> <!-- testscript.MyAccontTest -->
+      <class name="testscript.AddShoppingCartTest">
+        <methods>
+          <include name="SearchForProduct"/>
+          <include name="CloseBrowser"/>
+          <include name="OpenBrowser"/>
+          <include name="TakeScreenShotTest"/>
+        </methods>
+      </class> <!-- testscript.AddShoppingCartTest -->
+      <class name="testscript.EmailFriendTest">
+        <methods>
+          <include name="SearchForProduct"/>
+          <include name="CloseBrowser"/>
+          <include name="OpenBrowser"/>
+          <include name="TakeScreenShotTest"/>
+        </methods>
+      </class> <!-- testscript.EmailFriendTest -->
+      <class name="testscript.WishListTest">
+        <methods>
+          <include name="SearchForProduct"/>
+          <include name="CloseBrowser"/>
+          <include name="OpenBrowser"/>
+          <include name="TakeScreenShotTest"/>
+        </methods>
+      </class> <!-- testscript.WishListTest -->
+      <class name="testscript.HoverMenuTest">
+        <methods>
+          <include name="CloseBrowser"/>
+          <include name="OpenBrowser"/>
+          <include name="HoverMenu"/>
+          <include name="TakeScreenShotTest"/>
+        </methods>
+      </class> <!-- testscript.HoverMenuTest -->
+    </classes>
+  </test> <!-- Regression Test(failed) -->
+  <test thread-count="5" name="Regression Test2(failed)" parallel="tests">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="testscript.UserRegistrationTest">
+        <methods>
+          <include name="CloseBrowser"/>
+          <include name="OpenBrowser"/>
+          <include name="UserRegistrationSucessfully"/>
+          <include name="TakeScreenShotTest"/>
+        </methods>
+      </class> <!-- testscript.UserRegistrationTest -->
+      <class name="testscript.ProductReviewTest">
+        <methods>
+          <include name="UserRegistrationSucessfully"/>
+          <include name="CloseBrowser"/>
+          <include name="OpenBrowser"/>
+          <include name="SearchForProduct"/>
+          <include name="TakeScreenShotTest"/>
+        </methods>
+      </class> <!-- testscript.ProductReviewTest -->
+      <class name="testscript.ChangeCurrencyTest">
+        <methods>
+          <include name="ChangeCurrency"/>
+          <include name="CloseBrowser"/>
+          <include name="OpenBrowser"/>
+          <include name="TakeScreenShotTest"/>
+        </methods>
+      </class> <!-- testscript.ChangeCurrencyTest -->
+      <class name="testscript.ContactUsTest">
+        <methods>
+          <include name="CloseBrowser"/>
+          <include name="ContactUsTestPage"/>
+          <include name="OpenBrowser"/>
+          <include name="TakeScreenShotTest"/>
+        </methods>
+      </class> <!-- testscript.ContactUsTest -->
+      <class name="testscript.CompareProductTest">
+        <methods>
+          <include name="SearchForProduct"/>
+          <include name="CloseBrowser"/>
+          <include name="OpenBrowser"/>
+          <include name="TakeScreenShotTest"/>
+        </methods>
+      </class> <!-- testscript.CompareProductTest -->
+      <class name="testscript.MyAccontTest">
+        <methods>
+          <include name="ChangePasswordPage"/>
+          <include name="CloseBrowser"/>
+          <include name="LogoutPage"/>
+          <include name="OpenBrowser"/>
+          <include name="UserRegistrationSucessfully"/>
+          <include name="TakeScreenShotTest"/>
+        </methods>
+      </class> <!-- testscript.MyAccontTest -->
+      <class name="testscript.AddShoppingCartTest">
+        <methods>
+          <include name="SearchForProduct"/>
+          <include name="CloseBrowser"/>
+          <include name="OpenBrowser"/>
+          <include name="TakeScreenShotTest"/>
+        </methods>
+      </class> <!-- testscript.AddShoppingCartTest -->
+      <class name="testscript.EmailFriendTest">
+        <methods>
+          <include name="SearchForProduct"/>
+          <include name="CloseBrowser"/>
+          <include name="OpenBrowser"/>
+          <include name="TakeScreenShotTest"/>
+        </methods>
+      </class> <!-- testscript.EmailFriendTest -->
+      <class name="testscript.WishListTest">
+        <methods>
+          <include name="SearchForProduct"/>
+          <include name="CloseBrowser"/>
+          <include name="OpenBrowser"/>
+          <include name="TakeScreenShotTest"/>
+        </methods>
+      </class> <!-- testscript.WishListTest -->
+      <class name="testscript.HoverMenuTest">
+        <methods>
+          <include name="CloseBrowser"/>
+          <include name="OpenBrowser"/>
+          <include name="HoverMenu"/>
+          <include name="TakeScreenShotTest"/>
+        </methods>
+      </class> <!-- testscript.HoverMenuTest -->
+    </classes>
+  </test> <!-- Regression Test2(failed) -->
+</suite> <!-- Failed suite [nopcommerce regression suite] -->

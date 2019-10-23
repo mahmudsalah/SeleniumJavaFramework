@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="9779" started-at="2019-10-23T15:04:38Z" finished-at="2019-10-23T15:04:47Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="9779" started-at="2019-10-23T15:04:38Z" finished-at="2019-10-23T15:04:47Z">
+      <class name="testscript.TestAutomation">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testscript.TestAutomation@57fffcd7]" name="setUp" is-config="true" duration-ms="3257" started-at="2019-10-23T15:04:38Z" finished-at="2019-10-23T15:04:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testAutomation()[pri:0, instance:testscript.TestAutomation@57fffcd7]" name="testAutomation" duration-ms="5872" started-at="2019-10-23T15:04:41Z" finished-at="2019-10-23T15:04:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAutomation -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testscript.TestAutomation@57fffcd7]" name="tearDown" is-config="true" duration-ms="619" started-at="2019-10-23T15:04:47Z" finished-at="2019-10-23T15:04:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testscript.TestAutomation -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
